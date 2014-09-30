@@ -1,6 +1,7 @@
 class Kangaroo
-  def initialize(location)
-    location[][] = [0][0]
+
+  def initialize
+    start = Point.new 0,0
   end
 
   def hop!
