@@ -9,18 +9,17 @@ class Point
     @p2 = 0
   end
 
-  def move!(current_direction)
-    if current_direction == 'north'
-      @p1 += 1
-    end
-    if current_direction == 'south'
-      @p1 -= 1
-    end
-    if current_direction == 'east'
-      @p2 += 1
-    end
-    if current_direction == 'west'
-      @p2 -= 1
+  def move!(direction)
+    case direction
+      when :north
+        @p1 += 1
+      when :east
+        @p2 += 1
+      when :south
+        @p1 -= 1
+      when :west
+        @p2 -= 1
+
     end
   end
 

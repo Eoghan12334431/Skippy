@@ -9,18 +9,16 @@ class Die
 
   def throw
     number = Random.rand(1..4)
-    if number == 1
-      @current_direction = :north
-    end
-    if number == 2
-      @current_direction = :south
-    end
-    if number == 3
-      @current_direction = :west
-    end
-    if number == 4
-      @current_direction = :east
-    end
+    case number
+      when 1
+        @current_direction = :north
+      when 2
+        @current_direction = :east
+      when 3
+        @current_direction = :south
+      when 4
+        @current_direction = :west
+      end
   end
 
 end

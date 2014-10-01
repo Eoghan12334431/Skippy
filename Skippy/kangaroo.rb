@@ -22,8 +22,8 @@ class Kangaroo
       current_point.p1 = @location.p1
       current_point.p2 = @location.p2
 
-      current_point.move @die.throw
-      if @grid.lies_outside current_point
+      current_point.move! @die.throw
+      if @grid.lie_outside? current_point
         puts "Oops, hit the boundary: (#{current_point.p1}, #{current_point.p2})"
       else
         @location.move! @die.current_direction
@@ -41,8 +41,8 @@ class Kangaroo
   def at_home?(dimension)
     if @location.p1 == dimension && @location.p2 == dimension
       true
+    else
+     false
     end
-
-  else
   end
 end
