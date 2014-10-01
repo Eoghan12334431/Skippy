@@ -1,11 +1,18 @@
-class Kangaroo
+require_relative 'point'
+require_relative 'die'
 
-  def initialize
-    start = Point.new 0,0
+class Kangaroo
+  attr_accessor :location, :die
+
+  def initialize grid
+    @die = Die.new
+    @location = Point.new
+    @grid =grid
+
   end
 
   def hop!
-    die.throw
+    die.thr
   end
 
   def at_home?
