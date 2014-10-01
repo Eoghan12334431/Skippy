@@ -36,20 +36,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="point.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="point.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/point.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.6507177" vertical-offset="0" max-vertical-offset="544">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="die.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="die.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/die.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34605598" vertical-offset="0" max-vertical-offset="527">
+            <state vertical-scroll-proportion="-5.44" vertical-offset="0" max-vertical-offset="527">
               <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
@@ -89,8 +89,8 @@
         <option value="$PROJECT_DIR$/grid.rb" />
         <option value="$PROJECT_DIR$/kangaroo.rb" />
         <option value="$PROJECT_DIR$/main.rb" />
-        <option value="$PROJECT_DIR$/point.rb" />
         <option value="$PROJECT_DIR$/die.rb" />
+        <option value="$PROJECT_DIR$/point.rb" />
       </list>
     </option>
   </component>
@@ -343,18 +343,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/point.rb">
+    <entry file="file://$PROJECT_DIR$/die.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state vertical-scroll-proportion="-5.44" vertical-offset="0" max-vertical-offset="527">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/die.rb">
+    <entry file="file://$PROJECT_DIR$/point.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34605598" vertical-offset="0" max-vertical-offset="527">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6507177" vertical-offset="0" max-vertical-offset="544">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding />
         </state>
       </provider>
