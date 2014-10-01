@@ -6,10 +6,12 @@ require_relative 'die'
 class Main
 
   grid = Grid.new
+  kangaroo = Kangaroo.new grid
 
   print 'Enter the size(dimension) of the grid which must be (>=1): '
-  grid.dimensions = gets.chomp.to.i
+  grid.dimension  = gets.chomp.to_i
 
-  print grid.dimensions
+  #print grid.dimensions
+  kangaroo.hop!
 
 end

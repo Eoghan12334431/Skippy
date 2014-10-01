@@ -9,7 +9,6 @@ class Point
     @p2 = 0
   end
 
-  roll = Die.direction
   def move!(current_direction)
     if current_direction == 'north'
       @p1 += 1
@@ -24,4 +23,19 @@ class Point
       @p2 -= 1
     end
   end
+
+
+  def ==(other)
+    #.............................super
+    if @p1 == other.p1 && @p2 == other.p2
+      true
+    else
+      false
+    end
+  end
+
+  def print
+    puts "Hopped to: (#{@p1}, #{@p2})"
+  end
+
 end

@@ -10,7 +10,7 @@ class Grid
     @dimensions = 0
   end
 
-  def dimensions=(new_dimension)    #used to read in the size of the grid
+  def dimension=(new_dimension)    #used to read in the size of the grid
     @dimensions = new_dimension
   end
 
