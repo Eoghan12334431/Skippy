@@ -9,7 +9,7 @@ class Die
 
   def throw
     number = Random.rand(1..4)
-    case number
+    case number           #if statement doesn't work here
       when 1
         @current_direction = :north
       when 2

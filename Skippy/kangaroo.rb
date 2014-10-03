@@ -2,7 +2,7 @@ require_relative 'point'
 require_relative 'die'
 
 class Kangaroo
-  attr_accessor :location, :die
+  attr_accessor :location, :die  #public variables
 
   def initialize grid
     @die = Die.new

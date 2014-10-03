@@ -2,14 +2,14 @@ require_relative 'grid'
 
 class Point
 
-  attr_accessor :p1, :p2
+  attr_accessor :p1, :p2  #public variables
 
   def initialize
     @p1 = 0
     @p2 = 0
   end
 
-  def move!(direction)
+  def move!(direction)  #moves the kangaroo in the given direction
     case direction
       when :north
         @p1 += 1
@@ -25,7 +25,6 @@ class Point
 
 
   def ==(other)
-    #.............................super
     if @p1 == other.p1 && @p2 == other.p2
       true
     else
@@ -33,6 +32,7 @@ class Point
     end
   end
 
+  #shows where the kangaroo hopped
   def print
     puts "Hopped to: (#{@p1}, #{@p2})"
   end
